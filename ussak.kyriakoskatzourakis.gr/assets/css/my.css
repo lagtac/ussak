@@ -1,5 +1,34 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600&subset=greek,latin");
+@import url("http://fonts.googleapis.com/css?family=GFS+Didot&subset=greek,latin");
+
+body {
+    /*font-family: 'Open Sans', sans-serif;		*/
+    font-family: 'GFS Didot', serif;		
+/*font-size: 11pt;*/
+		font-weight: 300;
+    line-height: 1.7em;
+    color: #000;
+}
+    
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}    
+
+p {
+    margin-bottom: 1em;
+}    
+
+a {
+    text-decoration: underline;
+    color: black;
+    border-bottom: none;
+}   
+
+#header {
+    background: #111;
+} 
 #main > section.cover {
-    padding: 10.2em 0;
+    padding: 11.2em 0;
     background-size: cover;
     background-position: center center;
 }
@@ -9,8 +38,31 @@
     background-image: url("../../images/ussak-banner.jpg");
 }
 
+#main > section p {
+    text-align: left;
+}
 
 .hidden {
     visibility:  hidden;
+}
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top: 0;
+	left:0;
+	width:100%;
+	height:100%;    
+}
+
+.donate-container {
+    font-family: Courier New, Courier, monospace;
 }
 
