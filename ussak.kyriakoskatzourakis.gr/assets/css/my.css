@@ -42,6 +42,40 @@ a:hover {
     color: rgba(255, 255, 255, 10.5);
 }
 
+
+/* project nutshell */
+
+#i-project-nutshell {
+    position: relative;
+    /*margin: 1.75em 1.5em 1.5em 1.5em;*/
+    text-align: center;
+    min-height: 48px;
+    cursor: default;
+    margin-bottom: 0.5em;
+}
+
+#i-project-nutshell h2 {
+    position: relative;
+color: #fff;
+font-weight: 600;
+font-size: 1em;
+line-height: 1em;
+margin-bottom: 0.5em;
+}
+
+#i-project-nutshell p {
+    position: relative;
+    display: block;
+    font-size: 0.7em;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.25em;
+    margin: 0 0 0.5em 0;
+}
+
+.button-small {
+    padding: 0.1em 1em;
+    font-size:0.8em; 
+}
 /* language selector */
 
 /*#lang {    
@@ -79,6 +113,10 @@ a:hover {
 
 /* navigation */
 
+
+#nav ul li a {
+    padding: 0.25em 1.5em 0.25em 1.5em;
+}
 #nav ul li a span:before {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -118,11 +156,7 @@ ul.top-nav li a.active {
     color: #fff;
 }
 
-/* project nutshell */
 
-.i-project-nutshell {
-    margin-right: 1.75em;
-}
 
 /* cover image */
 
