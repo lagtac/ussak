@@ -20,15 +20,17 @@ p {
 
 a {
     text-decoration: underline;
-    color: black;
+    color: #444;
     border-bottom: none;
 }   
 
 a:hover {
-    color: #430000;    
+    color: #000;    
 }
 
 #header {
+    font-family: 'Open Sans';
+    font-weight: 400; 
     background: #111;
 } 
 
@@ -42,6 +44,11 @@ a:hover {
     color: rgba(255, 255, 255, 10.5);
 }
 
+/* logo */
+
+#logo #title {
+    font-family: 'GFS Didot', serif;	
+}
 
 /* project nutshell */
 
@@ -55,12 +62,13 @@ a:hover {
 }
 
 #i-project-nutshell h2 {
+    font-family: 'GFS Didot', serif;	
     position: relative;
 color: #fff;
 font-weight: 600;
 font-size: 1em;
 line-height: 1em;
-margin-bottom: 0.5em;
+margin-bottom: 0.3em;
 }
 
 #i-project-nutshell p {
@@ -69,10 +77,11 @@ margin-bottom: 0.5em;
     font-size: 0.7em;
     color: rgba(255, 255, 255, 0.5);
     line-height: 1.25em;
-    margin: 0 0 0.5em 0;
+    margin: 0 0 0.3em 0;
 }
 
 .button-small {
+margin-top: 0.2em;
     padding: 0.1em 1em;
     font-size:0.8em; 
 }
@@ -115,7 +124,7 @@ margin-bottom: 0.5em;
 
 
 #nav ul li a {
-    padding: 0.25em 1.5em 0.25em 1.5em;
+    padding: 0.2em 1.5em 0.2em 1.5em;
 }
 #nav ul li a span:before {
     color: rgba(255, 255, 255, 0.5);
@@ -131,13 +140,13 @@ margin-bottom: 0.5em;
 #top-bar  {
     background-color: #303049;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.6em;
+    font-size: .8em;
     line-height: 2em;
    }
 
 ul.top-nav {
     margin: 0;
-    text-align: right;
+    text-align: center;
 }
 
 ul.top-nav li {
