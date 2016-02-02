@@ -4,7 +4,7 @@
 body {
     /*font-family: 'Open Sans', sans-serif;		*/
     font-family: 'GFS Didot', serif;		
-/*font-size: 11pt;*/
+font-size: 16pt;
 		font-weight: 300;
     line-height: 1.7em;
     color: #000;
@@ -126,6 +126,7 @@ margin-top: 0.2em;
 #nav ul li a {
     padding: 0.2em 1.5em 0.2em 1.5em;
 }
+
 #nav ul li a span:before {
     color: rgba(255, 255, 255, 0.5);
 }
@@ -233,5 +234,6 @@ ul.top-nav li a.active {
 .donate-container {
     background-color: aliceblue;
     font-family: Courier New, Courier, monospace;
+    overflow: scroll;
 }
 
